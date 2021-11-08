@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html> <!--page for finishing choosing dogwalker and using javascript for back to menu please give us 3+ points :) -->
+	<head>
+    	<link rel="stylesheet" type="text/css" href="stylesheets/desktop.css"> <!--uses css file -->
+    </head>
+	<body> <!-- open body-->
+	
+	<p class="login">Hello, {{ i_user_object.nickname() }} You are logged in <br></br> <a class='logout' href='/logout'>Logout</a></p>
+	
+
+
+
+	<div id="mySidenav" class="sidenav"> <!--defining the menu after clicking the button to open it -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <!--after clicking it, it gets close in javascript function -->
+    <a href="/Aboutusdogowner">AboutUs</a>
+  <a href="/">Mainpage</a>
+  <a href="/finishchoosedogwalker">Search DogWalkers</a>
+</div>
+<!-- Use any element to open the sidenav -->
+<div onclick="openNav()">&#9776; Menu
+<div   </div>
+<div  </div>
+<div  </div>
+</div>
+
+
+	
+<button id="buttonscript" onclick="myFunction()">Finish Registration</button> <!--using javascript for back to mainpage -->
+
+
+		<script> <!--using javascript for back to mainpage -->
+function myFunction() {
+  alert("Registration succesful!");
+  location.href ="/";
+  
+}
+</script>
+
+<script> <!--useing javascript for opening and closing menu -->
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";  <!--setting width of menu to 0 -->
+  document.getElementById("main").style.marginLeft= "0";  <!--setting marginlft to 0 -->
+}
+
+
+</script>
+</table> <!-- end table-->
+	</body> <!-- end body-->
+</html>
+

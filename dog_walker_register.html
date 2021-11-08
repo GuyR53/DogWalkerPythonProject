@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html> <!--page for registering dogwalker -->
+	<head>
+    	<link rel="stylesheet" type="text/css" href="stylesheets/desktop.css"> <!--uses css file -->
+    </head>
+	<body> <!-- open body-->
+
+ <!-- centered headline for the form-->
+		<p class="login">Hello, {{ i_user_object.nickname() }} You are logged in <br></br> <a class='logout' href='/logout'>Logout</a></p>
+		<form action="/dog_walker_thank_you" method="post"> <!-- open form-->
+
+            <table > <!-- open table-->
+                <tr><td colspan="5" class="sub-title">DogWalker Details </td></tr> <!-- create a 5 row table with one column, which has this title-->
+                <tr>
+                    <td>Name</td> <!-- create name row-->
+                    <td>
+						<input type="name" name="name" required/> <!-- name type of input-->
+					</td>
+                </tr>
+				<tr>
+                    <td >City</td> <!-- create city row-->
+                    <td>
+						<select name="City" name="City" required/> <!-- selection input and creating all of the options-->
+						<option value = "-"> -</option>
+						<option value = "Tel-Aviv"> Tel-Aviv</option>
+						<option value = "Haifa"> Haifa</option>
+						<option value = "Be'er-Sheva"> Be'er-Sheva</option>
+						<option value = "Jerusalem"> Jerusalem</option>
+						<option value = "Rishon-Lezion"> Rishon-Lezion</option>
+						<option value = "Eilat"> Eilat</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+                    <td >Phone Number</td> <!-- create phone row-->
+                    <td>
+						<input type="tel" name="phone_number" min="1" required/> <!-- tel type of input-->
+					</td>
+                </tr>								
+				<tr>
+                    <td >Type of dogs</td> <!-- create type of dogs row-->
+                    <td> <!-- checkbox input and creating all of the options to check-->
+						<input type="checkbox" name="type 1" value="Lavrador">Lavrador</br>
+						<input type="checkbox" name="type 2" value="Pincher">Pincher</br>
+						<input type="checkbox" name="type 3" value="Shitzo">Shitzo</br>
+						<input type="checkbox" name="type 4" value="Golden retriever">Golden retriever</br>
+						<input type="checkbox" name="type 5" value="Haski">Haski</br>
+						<input type="checkbox" name="type 6" value="Pomerenian">Pomerenian</br>
+
+					</td>
+                </tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr> <!-- create space between the rows-->
+                <tr>
+                   <td >Days Available</td> <!-- create days row-->
+                    <td> <!-- checkbox input and creating all of the options to check-->
+						<input type="checkbox" name="day 1" value="1">Sunday</br> &nbsp price for day<input type="number" name="ppd6" class="wider"min="1"> &nbsp max dogs<input type="number" name="maxnod6" class="wider"min="1"></br>
+						<input type="checkbox" name="day 2" value="2">Monday </br> &nbsp price for day<input type="number" name="ppd0" class="wider"min="1"> &nbsp max dogs<input type="number" name="maxnod0" class="wider"min="1"></br>
+						<input type="checkbox" name="day 3" value="3">Tuesday </br>&nbsp price for day<input type="number" name="ppd1" class="wider"min="1">  max dogs<input type="number" name="maxnod1" class="wider"min="1"></br>
+						<input type="checkbox" name="day 4" value="4">Wednesday </br> &nbsp price for day<input type="number" name="ppd2" class="wider" min="1">max dogs<input type="number" name="maxnod2" class="wider"min="1"></br>
+						<input type="checkbox" name="day 5" value="5">Thursday </br>&nbsp price for day<input type="number" name="ppd3" class="wider"min="1">  max dogs<input type="number" name="maxnod3" class="wider"min="1"></br>
+						<input type="checkbox" name="day 6" value="6">Friday</br> &nbsp price for day<input type="number" name="ppd4" class="wider"min="1"> &nbsp max dogs<input type="number" name="maxnod4" class="wider"min="1"></br>
+						<input type="checkbox" name="day 7" value="7">Saturday </br>&nbsp price for day<input type="number" name="ppd5" class="wider"min="1">  max dogs<input type="number" name="maxnod5" class="wider"min="1"></br>
+					</td>
+				<tr>
+				<td>
+						<input type="submit" value="register" class="important_button"> <!-- create a submit button at the bottom to end registrartion-->
+					</td>
+				</tr>
+				
+        </form> <!-- end form-->
+		<div id="mySidenav" class="sidenav"> <!--defining the menu after clicking the button to open it -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <!--after clicking it, it gets close in javascript function -->
+    <a href="/Aboutusonline">AboutUs</a>
+  <a href="/">Mainpage</a>
+  <a href="/registrationdogowner">Signup For Dogowner</a>
+  <a href="/dog_walker_register">Signup For Dogwalker</a>
+</div>
+<!-- Use any element to open the sidenav -->
+<div onclick="openNav()">&#9776; Menu
+<div   </div>
+<div  </div>
+<div  </div>
+</div>
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
+<script> <!--useing javascript for opening and closing menu -->
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";  <!--setting width of menu to 0 -->
+  document.getElementById("main").style.marginLeft= "0";  <!--setting marginlft to 0 -->
+}
+function myFunction() {
+  var itm = document.getElementById("dog");
+  var cln = itm.cloneNode(true);
+  document.body.appendChild(cln);
+}
+
+</script>
+</table> <!-- end table-->
+	</body> <!-- end body-->
+</html>
+

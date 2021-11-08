@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5479841-61ce-4330-a88c-94847ff3f1fa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1WGOfswVESgcf19O61BpumxMoV5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="projectfinal" type="Python.AppEngineServer" factoryName="App Engine server">
+      <module name="projectfinal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="host" value="127.0.0.1" />
+      <option name="browserUrl" value="" />
+      <option name="additionalOptions" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5479841-61ce-4330-a88c-94847ff3f1fa" name="Default Changelist" comment="" />
+      <created>1578772570577</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578772570577</updated>
+      <workItem from="1578772573046" duration="57988000" />
+      <workItem from="1579018158431" duration="2166000" />
+      <workItem from="1579025835475" duration="16435000" />
+      <workItem from="1579177736316" duration="6318000" />
+      <workItem from="1579187465561" duration="18511000" />
+      <workItem from="1579268234566" duration="4466000" />
+      <workItem from="1579274415978" duration="2963000" />
+      <workItem from="1579289694141" duration="31000" />
+      <workItem from="1579289726726" duration="298000" />
+      <workItem from="1579298227891" duration="5703000" />
+      <workItem from="1579344308750" duration="3831000" />
+      <workItem from="1579348352719" duration="7880000" />
+      <workItem from="1579372164944" duration="4255000" />
+      <workItem from="1579388634541" duration="1060000" />
+      <workItem from="1579426664567" duration="16719000" />
+      <workItem from="1579473985451" duration="1161000" />
+      <workItem from="1579477374454" duration="6000" />
+      <workItem from="1579480850510" duration="6487000" />
+      <workItem from="1579488597175" duration="2000" />
+      <workItem from="1579488666925" duration="35000" />
+      <workItem from="1579493979985" duration="2825000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="428" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579189527007">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="428" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1579189527007" />
+    <state x="414" y="12" key="#projectfinal" timestamp="1578773390408">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="414" y="12" key="#projectfinal/0.0.1366.728@0.0.1366.728" timestamp="1578773390408" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1579350576479">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579350576479" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1578933117756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578933117756" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1578933117756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578933117756" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1578933117755">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578933117755" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1578933117756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578933117756" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1578933117757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578933117757" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1578933117756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578933117756" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1578933117756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578933117756" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1578933117757">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578933117757" />
+    <state x="323" y="15" key="SettingsEditor" timestamp="1578846613137">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="323" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578846613137" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1579493991222">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579493991222" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1578878847272">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1578878847272" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/projectfinal$projectfinal.coverage" NAME="projectfinal Coverage Results" MODIFIED="1578878600369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

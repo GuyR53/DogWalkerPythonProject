@@ -1,0 +1,45 @@
+<!--
+      showing mainpage for user who is online and isnt dogwalker nor owner
+                                                                    -->
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="stylesheets/desktop.css"> <!--uses css file -->
+</head>
+<body >
+<p class="login">Hello, {{ i_user_object.nickname() }} You are logged in</p>
+<h1 onclick="None">Hey {{ i_user_object.nickname() }}, <p> Choose on the menu whether you want to register as DogOwner or as DogWalker </p></h1>
+<div id="mySidenav" class="sidenav"> <!--defining the menu after clicking the button to open it -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <!--after clicking it, it gets close in javascript function -->
+  <a href="/Aboutusonline">AboutUs</a>
+  <a href="/">Mainpage</a>
+  <a href="/registrationdogowner">Signup For Dogowner</a>
+  <a href="/dog_walker_register">Signup For Dogwalker</a>
+</div>
+<!-- Use any element to open the sidenav -->
+<div onclick="openNav()">&#9776; Menu
+<div   </div>
+<div  </div>
+<div  </div>
+</div>
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
+<script> <!--useing javascript for opening and closing menu -->
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";  <!--setting width of menu to 0 -->
+  document.getElementById("main").style.marginLeft= "0";  <!--setting marginlft to 0 -->
+}
+
+</script>
+
+
+
+   
+</body>
+</html>

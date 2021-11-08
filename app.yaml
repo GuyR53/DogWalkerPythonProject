@@ -1,0 +1,57 @@
+# -----------------------------------------------------------------------------
+# application - this is the name of the application
+#               when the application is loaded to google application engine
+#               it can be viewed in the following internet address(URL):
+#               http://your_app_id.appspot.com/
+# -----------------------------------------------------------------------------
+application: finalprojectgroup26
+
+
+# -----------------------------------------
+# the version of the application we create
+# -----------------------------------------
+version: 1
+
+# -----------------------------------------
+# programming language
+# -----------------------------------------
+runtime: python27
+
+# -----------------------------------------
+# python sub version
+# -----------------------------------------
+api_version: 1
+
+# ---------------------------------------------------------------------
+# threadsafe - to prevent collision between calls to the application
+#              from different clients
+# ---------------------------------------------------------------------
+threadsafe: true
+
+
+# ---------------------------------------------------------------------
+# handlers - define an application file for each URL we get
+# ---------------------------------------------------------------------
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /.*
+  script: projectfinal.app
+  
+
+  
+  
+
+  
+  
+# ---------------------------------------------------------------------
+# libraries in use - jinja2(latest version)
+# ---------------------------------------------------------------------
+libraries:
+- name: jinja2
+  version: latest
+  # MySQLdb in use - MySQLdb(latest version)
+- name: MySQLdb
+  version: latest
+

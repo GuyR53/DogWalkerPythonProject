@@ -1,0 +1,114 @@
+body {
+	background: url(https://images.squarespace-cdn.com/content/v1/56f5fdc7c2ea5119892e22c2/1461340110045-W1N5ZWYZI4SS2ND61QW8/ke17ZwdGBToddI8pDm48kPEkw4_MRD28fmibFWdql7p7gQa3H78H3Y0txjaiv_0fYiipkZ87xgDekDUjSlg8vmxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmjJyaSXAwc_BJvYKv4pjNupQ9tcl3XJVnx9IMihnGYLAvFXI-dvCJYCB-TU1BwQmn/DOGFACE-Chase-024AFP.jpg?format=2500w); *//* link to the image */
+	background-color:#E6E6FA;
+     background-size: 100% 100%; /* fit to the browser size */
+	 background-attachment: fixed; /* scroll with the page */
+	font-family: "Lato", sans-serif; /* font of text in the body */
+}
+#mySidenav{
+	top:0;
+	left:0;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  
+  
+}
+
+.sidenav a { /* defining the text decoration after opening the menu */
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;
+  }
+  .sidenav a {font-size: 18px;}
+}
+
+span {background-color:white}
+
+.container {
+  	
+  display: inline-block;
+  cursor: pointer;
+}
+h1{position: absolute;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  background-color:transparent;}
+  
+  div{font-size:50px;}
+ div{font-size:50px;}
+  .login{font-size:20px;
+  float:right;}
+  .logout{font-size:20px;
+  float:right;}
+ td{font-size:20px;
+		color: black;
+		font-weight:bold;}
+  .sub-title 	{font-size:30px;
+	  
+	color: blue;
+	font-weight:bold
+  margin: 0px auto;}
+  table {
+    margin: 0px auto;            
+	}​
+
+}
+h3 {text-align: center; 
+}
+
+.filter{
+	position:center
+	
+}
+.buttonscript{
+	display: block;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+  
+ 
+
+
+

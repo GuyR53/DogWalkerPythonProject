@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>   <!--customerdetails page for showing details before filtering -->
+	<head>
+    	<link rel="stylesheet" type="text/css" href="stylesheets/desktop.css"> <!--uses css file -->
+    </head>
+	<body> <!-- open body-->
+<p class="login">Hello, {{ i_user_object.nickname() }} You are logged in <br></br> <a class='logout' href='/logout'>Logout</a></p>
+	
+	<div id="mySidenav" class="sidenav"> <!--defining the menu after clicking the button to open it -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <!--after clicking it, it gets close in javascript function -->
+    <a href="/Aboutusdogwalker">AboutUs</a>
+  <a href="/">Mainpage</a>
+  <a href="/CustomerDetails">Costumersdetails</a>
+</div>
+<!-- Use any element to open the sidenav -->
+<div onclick="openNav()">&#9776; Menu
+<div   </div>
+<div  </div>
+<div  </div>
+</div>
+	
+<table> <!-- open table-->
+			{% for i in range(lendetails) %}
+			
+			<!-- a loop that gets the num of dogs inserted, and creates the same table as many times as num inserted-->
+                <tr><td  colspan="5" class="sub-title">DogOwnerResults{{i+1}} Details</td></tr>  <!-- create a 5 row table with one column, which has this title, takes the number of table created to num of dog-->
+               <tr>
+                    <td >BirthDate</td>  <!-- create gender row-->
+                    <td> 
+					
+					 <td >{{details[i][0]}}</td>  <!-- create gender row-->
+                    <td> 
+					
+					
+					<tr>
+                    <td >Email</td>  <!-- create gender row-->
+                    <td> 
+				
+					   <td> 
+					
+					 <td >{{details[i][1]}}</td>  <!-- create details row-->
+                    <td> 
+					
+					
+					<tr>
+                    <td >Name</td>  <!-- create name row-->
+                    <td> 
+					
+					   <td> 
+					
+					 <td >{{details[i][2]}}</td>  <!-- create details row-->
+                    <td> 
+					
+					
+					<tr>
+                    <td >PhoneNumber</td>  <!-- create phone row-->
+                    <td> 
+					
+					   <td> 
+					
+					 <td >{{details[i][3]}}</td>  <!-- create details row-->
+                    <td> 
+					
+					<tr>
+                    <td >City</td>  <!-- create city row-->
+                    <td> 
+					
+					   <td> 
+					
+					 <td >{{details[i][4]}}</td>  <!-- create details row-->
+                    <td> 
+				 <!-- end the loop and finish creating tables-->
+                <tr>				
+ 
+                </tr>
+				{% endfor %}
+				</table>
+
+
+
+
+
+
+
+		
+		
+		
+		<form action="/CustomerDetailsResults" method="post"> <!-- open form-->
+           <table > <!-- open table-->
+                <tr><td colspan="5" class="sub-title">DogOwner Details Filter</td></tr> <!-- create a 5 row table with one column, which has this title-->
+				<tr>
+                    <td >City</td> <!-- create city row-->
+                    <td>
+						<select name="City" name="City" required> <!-- selection input and creating all of the options-->
+						<option value = "Tel-Aviv"> Tel-Aviv</option>
+						<option value = "Haifa"> Haifa</option>
+						<option value = "Be'er-Sheva"> Be'er-Sheva</option>
+						<option value = "Jerusalem"> Jerusalem</option>
+						<option value = "Rishon-Lezion"> Rishon-Lezion</option>
+						<option value = "Eilat"> Eilat</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+                    <td>AgeOwner</td> <!-- create age row-->
+                    <td>
+						<input type="number" name="number" min="1" required/> <!-- name type of input-->
+					</td>
+                </tr>
+				<tr>
+				<td>
+						<input type="submit" value="search dog owners" class="important_button"> <!-- create a submit button at the bottom to end registrartion-->
+					</td>
+				</tr>				
+				
+        </form> <!-- end form-->
+
+
+
+<script> <!--useing javascript for opening and closing menu -->
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";  <!--setting width of menu to 0 -->
+  document.getElementById("main").style.marginLeft= "0";  <!--setting marginlft to 0 -->
+}
+
+
+</script>
+</table> <!-- end table-->
+	</body> <!-- end body-->
+</html>
+

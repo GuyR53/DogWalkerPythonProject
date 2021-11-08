@@ -1,0 +1,44 @@
+<!--
+       showing mainpage for user who isnt online
+                                                                    -->
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="stylesheets/desktop.css"> <!--uses css file -->
+</head>
+<body >
+<h1 onclick="None">Welcome to our site, <p>If you want to have the best exeperience of Dogwalks or DogOwn you came to the right site, of group 26,Please sign in to your google accounts</p></h1> <!--title for main page -->
+
+
+<div id="mySidenav" class="sidenav"> <!--defining the menu after clicking the button to open it -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <!--after clicking it, it gets close in javascript function -->
+    <a href="/AboutUs">AboutUs</a>
+  <a href="/">Mainpage</a>
+</div>
+<!-- Use any element to open the sidenav -->
+<div onclick="openNav()">&#9776; Menu
+<div   </div>
+<div  </div>
+<div  </div>
+</div>
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
+<script> <!--useing javascript for opening and closing menu -->
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";  <!--setting width of menu to 0 -->
+  document.getElementById("main").style.marginLeft= "0";  <!--setting marginlft to 0 -->
+}
+
+</script>
+
+
+
+   
+</body>
+</html>
